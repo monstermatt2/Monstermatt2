@@ -4,7 +4,16 @@ class Header extends Component {
   render() {
     return (
     <header>
-      test head
+      <div className="logo">
+        logo
+      </div>
+      <nav>
+        <ul>
+          <li>home</li>
+          <li>videos</li>
+          <li>gallery</li>
+        </ul>
+      </nav>
     </header>
     );
   }
