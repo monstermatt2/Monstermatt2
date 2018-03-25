@@ -6,17 +6,15 @@ import Topbar from './components/topbar/topbar';
 import Homepage from './components/pages/homepage';
 import './App.css';
 
-$(window).scroll(function() {
+$(document).ready(function() {
+    var $header = $("header"),
+        $clone = $header.before($header.clone().addClass("clone"));
 
-    if ($(this).scrollTop()>0)
-     {
-        $('.topbar').fadeOut();
-     }
-    else
-     {
-      $('.topbar').fadeIn();
-     }
- });
+    $(window).on("scroll", function() {
+        var fromTop = $(window).scrollTop();
+        $("body").toggleClass("down", (fromTop > 60));
+    });
+});
 
 class App extends Component {
   render() {
