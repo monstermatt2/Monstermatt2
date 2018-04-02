@@ -4,7 +4,9 @@ class Topbar extends Component {
   render() {
     return (
     <div className="topbar">
-      test top
+      <div className="wrapper">
+        test topbar
+      </div>
     </div>
     );
   }

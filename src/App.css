@@ -24,15 +24,14 @@ header.clone {
     transition:0.4s top cubic-bezier(.3,.73,.3,.74);
 }
 header .logo {
-position: absolute;
-left: 15px;
+		float: left;
+		margin-left: -39px;
 }
 body.down header.clone {
     top:0;
 }
 nav {
-  position: absolute;
-  right: 25px;
+  float: right;
 }
 ul li {
   list-style-type: none;
@@ -45,5 +44,5 @@ ul li {
 }
 .wrapper {
   margin: 0 auto;
-  width:
+  width: 1560px;
 }
