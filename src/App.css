@@ -24,7 +24,6 @@ header.clone {
     transition:0.4s top cubic-bezier(.3,.73,.3,.74);
 }
 header .logo {
-		float: left;
 		margin-left: -39px;
 }
 body.down header.clone {
