@@ -4,8 +4,8 @@ class Footer extends Component {
   render() {
     return (
     <footer>
-    <div className="wrapper">
-      test foot
+      <div className="wrapper">
+        <p>This footer will always be positioned at the bottom of the page, but <strong>not fixed</strong>.</p>
       </div>
     </footer>
     );
