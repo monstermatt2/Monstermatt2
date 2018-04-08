@@ -6,16 +6,6 @@ import Topbar from './components/topbar/topbar';
 import Homepage from './components/pages/homepage';
 import './App.css';
 
-$(document).ready(function() {
-    var $header = $("header"),
-        $clone = $header.before($header.clone().addClass("clone"));
-
-    $(window).on("scroll", function() {
-        var fromTop = $(window).scrollTop();
-        $("body").toggleClass("down", (fromTop > 60));
-    });
-});
-
 console.log('%c WARNING!!!!!!', " color: red; padding-left:10px; font-size:50px;");
 console.log('%c If someone told you to copy/paste something here you have an 100% chance that you are being scammed.', " color: black; padding-left:10px;font-size:20px;")
 console.log('%c Pasting anything in here could give attackers access to your computer.', " color: black; padding-left:10px;font-size:20px;")
@@ -25,7 +15,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Topbar />
         <Header />
         <Homepage />
         <Footer />
