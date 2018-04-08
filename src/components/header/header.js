@@ -6,7 +6,7 @@ class Header extends Component {
     <header>
     <div className="wrapper">
         <div className="logo">
-          <img src="http://monstermatt2.net/wp-content/uploads/2017/01/matt_logo1.png" width="430" height="60" alt=""></img></div>
+          <img src={require('../../img/logo.png')} width="430" height="60" alt=""></img></div>
         <nav>
           <ul>
             <li>home</li>
