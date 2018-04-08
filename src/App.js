@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import $ from 'jquery';
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
-import Topbar from './components/topbar/topbar';
 import Homepage from './components/pages/homepage';
 import './App.css';
 
