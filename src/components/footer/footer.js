@@ -5,7 +5,7 @@ class Footer extends Component {
     return (
     <footer>
       <div className="wrapper">
-        <p>This footer will always be positioned at the bottom of the page, but <strong>not fixed</strong>.</p>
+        <p> Copyright © 2018 <a href="mailto:matt@monstermatt2.net">Monstermatt2.net.</a></p>
       </div>
     </footer>
     );
