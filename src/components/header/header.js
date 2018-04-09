@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 
 class Header extends Component {
   render() {
@@ -6,13 +7,13 @@ class Header extends Component {
     <header>
     <div className="wrapper">
         <div className="logo">
-          <img src={require('../../img/logo.png')} width="430" height="60" alt=""></img>
+          <img src={require('../../img/logo.png')} width="430" height="60" alt="" />
         </div>
         <nav>
           <ul>
-            <li>home</li>
-            <li>videos</li>
-            <li>gallery</li>
+            <li><Link to="/" />Home</li>
+            <li><Link to="/Gallery" />Gallery</li>
+            <li><Link to="/Videos" />Videos</li>
           </ul>
         </nav>
         </div>
