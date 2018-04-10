@@ -4,7 +4,7 @@ import Footer from './components/footer/footer';
 import Homepage from './components/pages/homepage';
 import Gallery from './components/pages/gallery';
 import Videos from './components/pages/videos';
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 import './App.css';
 
 
