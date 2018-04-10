@@ -11,9 +11,9 @@ class Header extends Component {
         </div>
         <nav>
           <ul>
-            <li><Link to="/" />Home</li>
-            <li><Link to="/Gallery" />Gallery</li>
-            <li><Link to="/Videos" />Videos</li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/Gallery">Gallery</Link></li>
+            <li><Link to="/Videos">videos</Link></li>
           </ul>
         </nav>
         </div>
