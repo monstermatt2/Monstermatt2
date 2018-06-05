@@ -3,6 +3,9 @@ body, div, h1, h2, h3, h4, h5, html, iframe, img, li, p, span, table, tbody, td,
 	padding: 0;
   font-size: 16px;
 }
+body {
+	background-color: #eeeeee;
+}
 body a {
 	text-decoration: none;
 	color: #000000;
@@ -23,7 +26,7 @@ header .logo {
 nav {
   float: right;
 }
-ul li {
+header ul li {
   list-style-type: none;
   display: inline-block;
   margin-right: 10px;
@@ -34,11 +37,54 @@ li a {
 }
 .wrapper {
   margin: 0 auto;
-  width: 1560px;
+  width: 87%;
 }
 .main {
 	margin-top: 15px;
 }
 footer {
   text-align: center;
+	margin-top: 15px;
+}
+.news-box {
+	box-shadow: 0 1px 2px rgba(0,0,0,.1);
+	background-color: #FFFFFF;
+	margin-bottom: 13px;
+}
+.news-title {
+	float: left;;
+	padding-left: 13px;
+	padding-right: 13px;
+	border-bottom: 1px solid #e2e2e2;
+	width: 98%;
+}
+.news-date {
+	float: right;
+	margin-top: -19px;
+  margin-right: 10px;
+}
+.news-content {
+	padding: 13px;
+	padding-top: 25px;
+}
+.news-content ul {
+	margin-left: 16px;
+	margin-top: 10px;
+}
+.vlist {
+	list-style-type: none;
+}
+.vtimer {
+margin-top: -25px;
+margin-left: 167px;
+color: hsl(0, 0%, 100%);
+background-color: hsl(0, 0%, 6.7%);
+opacity: .8;
+padding: 2px 4px;
+border-radius: 2px;
+letter-spacing: .5px;
+font-size: 1.2rem;
+font-weight: 500;
+line-height: 1.2rem;
+align-items: center;
 }
