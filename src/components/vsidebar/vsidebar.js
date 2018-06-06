@@ -5,7 +5,7 @@ class Vsidebar extends Component {
     return (
     <div className="wrapper">
       <div className="main">
-        videos page
+        video sidebar page
       </div>
     </div>
     );

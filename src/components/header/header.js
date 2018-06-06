@@ -5,7 +5,7 @@ class Header extends Component {
   render() {
     return (
     <header>
-    <div className="wrapper">
+     <div className="wrapper">
         <div className="logo">
           <img src={require('../../img/logo.png')} width="430" height="60" alt="" />
         </div>
@@ -16,7 +16,7 @@ class Header extends Component {
             <li><Link to="/Videos">videos</Link></li>
           </ul>
         </nav>
-        </div>
+      </div>
     </header>
     );
   }

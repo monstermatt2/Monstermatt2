@@ -5,7 +5,6 @@ import Footer from './components/footer/footer';
 import Homepage from './components/pages/homepage';
 import Gallery from './components/pages/gallery';
 import Videos from './components/pages/videos';
-import Vsidebar from './components/vsidebar/vsidebar';
 import './App.css';
 
 console.log('%c WARNING!!!!!!', " color: red; padding-left:10px; font-size:50px;");
