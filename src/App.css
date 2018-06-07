@@ -72,14 +72,13 @@ footer {
 	margin-left: 16px;
 	margin-top: 10px;
 }
-.video-main {
+.video-list {
 	float: left;
 	width: 70%;
 	border: 1px solid red;
 } 
 .sidebar {
 	float: right;
-	margin-right: -8%;
-	width: 33%;
+	width: 28%;
 	border: 1px solid red;
 }
