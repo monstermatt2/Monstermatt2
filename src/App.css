@@ -72,13 +72,7 @@ footer {
 	margin-left: 16px;
 	margin-top: 10px;
 }
-.vlist {
-	float: left;
-	width: 70%;
-	border: 1px solid red;
-} 
 .vsidebar {
 	float: right;
 	width: 28%;
-	border: 1px solid red;
 }

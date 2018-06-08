@@ -5,7 +5,7 @@ class Videos extends Component {
     return (
       <div className="wrapper">
         <div classname="main">
-          <div className="video-list">
+          <div>
           test
           </div>
         </div>
