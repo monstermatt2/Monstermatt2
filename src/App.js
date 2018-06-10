@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
-import Homepage from './components/pages/homepage';
-import Gallery from './components/pages/gallery';
-import Videos from './components/pages/videos';
+import Homepage from './pages/homepage';
+import Gallery from './pages/gallery';
+import Videos from './pages/videos';
 import './App.css';
 
 console.log('%c WARNING!!!!!!', " color: red; padding-left:10px; font-size:50px;");
